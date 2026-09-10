@@ -11,11 +11,18 @@ Jupyter Notebook or Google Colab
 Power BI Desktop
 Google Cloud account (for BigQuery access — free tier is sufficient)
 Works on Windows 10/11, macOS, or Linux
+
+
 **Installing**
 Clone this repository to your local machine:
-  git clone https://github.com/ddharani9095-creator/chicago-crime-analysis.git
-Install required Python libraries:
+  **git clone https://github.com/ddharani9095-creator/chicago-crime-analysis.git**
+  
+**Install required Python libraries:**
+
   pip install pandas numpy matplotlib seaborn
+  
 **Dataset:** query the data directly from BigQuery (query included in /sql/chicago_crime_query.sql) or use the pre-extracted CSV in /data/chicago_crime_2023.csv
-Executing Program
+
+**
+Executing Program**
 Step 1 — Extract data: Run the SQL query in BigQuery console to pull the 2023 crime dataset (or use the provided CSV)
